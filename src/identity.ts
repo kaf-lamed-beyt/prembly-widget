@@ -28,7 +28,7 @@ export interface IdentityKycOptions {
 const SCRIPT_ELEM =
   'script[src="https://js.prembly.com/v1/inline/widget-v2.js"]';
 
-export const useIdentityKyc = () => {
+export const usePremblyWidget = () => {
   const isScriptLoaded = React.useRef(false);
   const [isReady, setIsReady] = React.useState<boolean>(false);
 
