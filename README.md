@@ -20,7 +20,7 @@ When the package is installed, you can import it in your component as a hook and
 import { usePremblyWidget } from "prembly-widget"
 
 const ExampleComponent = () => {
-  const { verifyKyc, isReady } = useIdentityKyc();
+  const { verifyKyc, isReady } = usePremblyWidget();
 
   const handleVerification = () => {
     if (!isReady) {
